@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <h1>Calculadora</h1>
+    <div class='jumbotron container'>
+        <div class='row form-group'>
+            <div class='col-md-3'>
+                <button class="btn btn-danger btn-lg btn-block" type="button" id='clear'>C</button>
+            </div>
+            <div class='col-md-9' style="text-align : right;">
+                <input type="text" readonly class="form-control" style="text-align:right; font-size: x-large;"
+                    id="viewer" >
+            </div>
+        </div>
+
+        <div class='row form-group'>
+            <div class='col-md-3'>
+                <button class="btn btn-primary btn-lg btn-block" type="button" id='seven'>7</button>
+            </div>
+            <div class='col-md-3'>
+                <button class="btn btn-primary btn-lg btn-block" type="button" id='eight'>8</button>
+            </div>
+            <div class='col-md-3'>
+                <button class="btn btn btn-primary btn-lg btn-block" type="button" id='nine'>9</button>
+            </div>
+            <div class='col-md-3'>
+                <button class="btn btn-primary btn-lg btn-block" type="button" id='minus'>-</button>
+            </div>
+        </div>
+        <div class='row form-group'>
+            <div class='col-md-3'>
+                <button class="btn btn-primary btn-lg btn-block" type="button" id='four'>4</button>
+            </div>
+            <div class='col-md-3'>
+                <button class="btn btn-primary btn-lg btn-block" type="button" id='five'>5</button>
+            </div>
+            <div class='col-md-3'>
+                <button class="btn btn-primary btn-lg btn-block" type="button" id='six'>6</button>
+            </div>
+            <div class='col-md-3'>
+                <button class="btn btn-primary btn-lg btn-block" type="button" id='plus'>+</button>
+            </div>
+        </div>
+        <div class='row form-group'>
+            <div class='col-md-3'>
+                <button class="btn btn-primary btn-lg btn-block" type="button" id='one'>1</button>
+            </div>
+            <div class='col-md-3'>
+                <button class="btn btn-primary btn-lg btn-block" type="button"  id='two'>2</button>
+            </div>
+            <div class='col-md-3'>
+                <button class="btn btn-primary btn-lg btn-block" type="button" id='three'>3</button>
+            </div>
+            <div class='col-md-3'>
+                <button class="btn btn-primary btn-lg btn-block" type="button" id='multiply'>*</button>
+            </div>
+        </div>
+        <div class='row form-group'>
+            <div class='col-md-3'>
+                <button class="btn btn-primary btn-lg btn-block" type="button" id='zero'>0</button>
+            </div>
+            <div class='col-md-3'>
+                <button class="btn btn-primary btn-lg btn-block" type="button" id='dot'>.</button>
+            </div>
+            <div class='col-md-3'>
+                <button class="btn btn-primary btn-lg btn-block" type="button" id='equal'>=</button>
+            </div>
+            <div class='col-md-3'>
+                <button class="btn btn-primary btn-lg btn-block" type="button" id='divide'>/</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="calculator.js"></script>
+	
+
+</html>
